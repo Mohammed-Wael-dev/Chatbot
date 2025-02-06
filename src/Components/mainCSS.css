@@ -1,0 +1,10 @@
+:root{
+    --background-color: #fff;
+    --text-color: black;
+
+}
+[data-theme='dark']{
+    --background-color: #fff;
+    --text-color: black;
+
+}

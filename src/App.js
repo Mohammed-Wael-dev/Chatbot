@@ -1,9 +1,10 @@
 import './App.css';
+import MainBody from './Components/chat/mainBody.js';
 
 function App() {
   return (
     <>
-      <div className='bg-green-500'>i</div>
+      <MainBody/>
     </>
   )
 }
