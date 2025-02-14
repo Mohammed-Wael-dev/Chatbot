@@ -51,14 +51,14 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 }));
 
 export default function CustomizedSwitches() {
-  const { theme, toggleTheme } = useTheme(); // Get theme state from Context
+  const { theme, toggleTheme } = useTheme();
 
   return (
     <FormControlLabel
       control={
         <MaterialUISwitch
-          checked={theme === "dark"} // Ensure it's controlled
-          onChange={toggleTheme} // Toggle theme
+          checked={theme === "dark"}
+          onChange={toggleTheme}
         />
       }
     />
