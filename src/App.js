@@ -1,11 +1,12 @@
 import './App.css';
 import MainBody from './Components/chat/mainBody.js';
+import { ThemeProvider } from './Components/ThemeContext.js';
 
 function App() {
   return (
-    <div data-theme='dark'>
-      <MainBody/>
-    </div>
+    <ThemeProvider>
+        <MainBody/>
+    </ThemeProvider>
   )
 }
 export default App;
